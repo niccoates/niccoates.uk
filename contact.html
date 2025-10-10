@@ -68,125 +68,43 @@
     </head>
     <body>
         <div class="container">
-            <section id="about">
-                <h1>Nic Coates</h1>
-                <p class="subtitle">
-                    I’m a web designer based in Bishop’s Cleeve, helping small
-                    businesses look great online.
-                </p>
-                <p>
-                    I create clean, fast websites that are easy to manage and
-                    built to last. No jargon, no big agency prices — just honest
-                    design for local people.
-                </p>
-                <p>
-                    Whether you’re starting from scratch or need a refresh, I’ll
-                    help you build a site you’re proud to share.
-                </p>
-                <a href="/contact" class="button">Work with me →</a>
-            </section>
-
-            <section id="offer">
-                <h2>Web design that feels effortless</h2>
+            <a href="/" class="back-link">&larr; Back</a>
+            <section class="contact">
+                <h1>Work with me</h1>
                 <p class="intro">
-                    Built for small businesses who want something that works —
-                    and someone who’s there when they need help.
+                    Tell me a bit about your project or what you’re looking for
+                    — I’ll get back to you as soon as I can.
                 </p>
 
-                <div class="offer-list">
-                    <div class="offer-item">
-                        <span class="offer-number">01</span>
-                        <div class="offer-content">
-                            <h3>Design that fits your business</h3>
-                            <p>
-                                I design clean, modern websites that are easy to
-                                use and simple to look after. Each one is
-                                carefully made to suit your business — clear,
-                                fast, and built to engage.
-                            </p>
-                        </div>
-                    </div>
+                <form id="contactForm">
+                    <label>
+                        Name
+                        <input type="text" name="name" required />
+                    </label>
 
-                    <div class="offer-item">
-                        <span class="offer-number">02</span>
-                        <div class="offer-content">
-                            <h3>A secure, reliable home online</h3>
-                            <p>
-                                I take care of hosting and maintenance, so your
-                                website runs smoothly every day. Safe, fast, and
-                                quietly looked after — no stress, no jargon.
-                            </p>
-                        </div>
-                    </div>
+                    <label>
+                        Email address
+                        <input type="email" name="email" required />
+                    </label>
 
-                    <div class="offer-item">
-                        <span class="offer-number">03</span>
-                        <div class="offer-content">
-                            <h3>Personal, ongoing support</h3>
-                            <p>
-                                Good design doesn’t end at launch. I stay
-                                involved to keep your site running smoothly and
-                                to help as your business grows.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                    <label>
+                        Contact number
+                        <input type="tel" name="phone" />
+                    </label>
+
+                    <label>
+                        How can I help?
+                        <textarea name="message" rows="4" required></textarea>
+                    </label>
+
+                    <button type="submit">Send message</button>
+                </form>
+
+                <p id="formStatus" class="status"></p>
+
+                <script src="/js/contact.js"></script>
             </section>
 
-            <section id="clients">
-                <h2>Clients</h2>
-                <p class="intro">
-                    I’ve designed websites for local groups and businesses
-                    across Bishop’s Cleeve and the surrounding areas — helping
-                    them share what they do with the community.
-                </p>
-
-                <ul class="client-list">
-                    <li>
-                        <a
-                            href="https://gotheringtonscouts.org.uk"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            <span class="client-name">Gotherington Scouts</span>
-                            <span class="client-desc"
-                                >A modern, mobile-friendly site for a growing
-                                local Scout group.</span
-                            >
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            href="https://tewkesburyscouts.org.uk"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            <span class="client-name">Tewkesbury Scouts</span>
-                            <span class="client-desc"
-                                >A refresh of the district website, making it
-                                easier for parents & volunteers.</span
-                            >
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            href="https://connorandcompany.co.uk"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            <span class="client-name"
-                                >Connor &amp; Company</span
-                            >
-                            <span class="client-desc"
-                                >Simple, elegant website for a local family-run
-                                EPC ratings business</span
-                            >
-                        </a>
-                    </li>
-                </ul>
-            </section>
             <footer id="site-footer">
                 <div class="footer-content">
                     <p class="footer-left">
