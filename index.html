@@ -83,7 +83,7 @@
                     Whether you’re starting from scratch or need a refresh, I’ll
                     help you build a site you’re proud to share.
                 </p>
-                <a href="/contact" class="button">Work with me →</a>
+                <a id="contactButton" class="button">Work with me →</a>
             </section>
 
             <section id="offer">
@@ -265,6 +265,16 @@
         <script>
             document.getElementById("year").textContent =
                 new Date().getFullYear();
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const user = "nic";
+                const domain = "niccoates.uk";
+                const email = `${user}@${domain}`;
+                const button = document.getElementById("contactButton");
+                button.href = `mailto:${email}?subject=Web%20Design%20Enquiry`;
+            });
         </script>
     </body>
 </html>
