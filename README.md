@@ -1,15 +1,15 @@
 # niccoates.uk
 
-Welcome to the repository for niccoates.uk- a personal website for Nic Coates.
+Personal website for Nic Coates.
 
-## Overview
+## Deployment
 
-This site is crafted with:
-- **Pure HTML** for structure
-- **CSS** for styling
+Static site — just serve the files. Works on Vercel, Netlify, GitHub Pages, or any static hosting.
 
-No JavaScript or frameworks are used, emphasizing on lightweight, fast-loading pages with minimal dependencies.
+The site is a single `index.html` file with embedded CSS and vanilla JS. No build step, no dependencies.
 
-### Features:
-- **Responsive Design:** Works seamlessly on mobile devices without additional mobile-specific pages or JavaScript.
-- **Static Files:** Easy to host on platforms like Vercel, Netlify, or GitHub Pages.
+## Structure
+
+- `index.html` — the entire site (styles and scripts embedded)
+- `robots.txt` — search engine directives
+- `sitemap.xml` — sitemap for SEO
